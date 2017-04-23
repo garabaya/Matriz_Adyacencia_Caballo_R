@@ -1,6 +1,6 @@
 load("~/PruebasR/m_adyacencia.RData")
 jpeg("caballo.jpg")
 library(igraph)
-conexiones <- graph.adjacency(M,mode = "undirected")
+conexiones <- graph.adjacency(M, mode = "undirected")
 plot(conexiones)
 dev.off()
